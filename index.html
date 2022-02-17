@@ -14,7 +14,20 @@
     <div class="container">
     <div class="header__inner">
       <div class="header__top">
-        <div class="hamburger__menu"></div>
+        <div class="hamburger__menu">
+              <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+            <span></span>
+              </label>
+            <ul class="menu__box">
+            <li><a class="menu__item" href="#">Главная</a></li>
+            <li><a class="menu__item" href="#">Меню</a></li>
+            <li><a class="menu__item" href="#">Акции</a></li>
+            <li><a class="menu__item" href="#">Доставка</a></li>
+            <li><a class="menu__item" href="#">Контакты</a></li>
+            <li><a class="menu__item" href="tel:+79049708476">8(904)970-84-76</a></li>
+          <ul/>
+        </div>
         <div class="header__logo">
           <a href="#"><img class="logo" src="img/logo.png" alt=""> </a>
         </div>
@@ -49,62 +62,67 @@
         <h1 class="product__title">Пироги</h1>
         <div class="slider-pie">
           <div class="product__item">
-            <img src="img/item-1.jpg" alt="">
+            <img src="img/pie-meat-potatoe.jpg" alt="">
             <h2 class="title__name">Пирог со свининой и картофелем</h2>
             <p class="title__desc">Слоёное тесто,свинина(окорок охл.),картофель очищенный,масло растительное</p>
             <p class="title__price">470р</p>
+            <!-- <div class="conter">
+              <button class="conter__btn" data-direction="minus">-</button>
+              <input type="text" value="0" class="counter__value">
+              <button class="conter__btn" data-direction="plus">+</button>
+            </div> -->
           </div>
           <div class="product__item">
-            <img src="img/item-1.jpg" alt="">
+            <img src="img/pie-fish-potatoe.jpg" alt="">
             <h2 class="title__name">Пирог с  филе горбуши и картофелем</h2>
             <p class="title__desc">Слоёное тесто, филе горбуши, картофель очищенный, лук репчатый, специи</p>
             <p class="title__price">600р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-1.jpg" alt="">
+            <img src="img/pie-cabbage-egg.jpg" alt="">
             <h2 class="title__name">Пирог с  капустой и яйцом</h2>
             <p class="title__desc"> Слоёное тесто, капуста тушёная, яйцо куриное, специи.390Р</p>
             <p class="title__price">390р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-1.jpg" alt="">
+            <img src="img/pie-mushroom-potatoe.jpg" alt="">
             <h2 class="title__name">Пирог с грибами и картофелем</h2>
             <p class="title__desc">Слоёное тесто, картофель очищенный, шампиньоны пасс.,
             лук репчатый, специи.</p>
             <p class="title__price">470р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-1.jpg" alt="">
+            <img src="img/pie-cabbage-mushroom.jpg" alt="">
             <h2 class="title__name">Пирог с грибами и капустой</h2>
             <p class="title__desc">слоеное тесто, капуста тушёная, шампиньоны пасс.,лук репчатый,специи.</p>
             <p class="title__price">470р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-1.jpg" alt="">
+            <img src="img/pie-chicken-potatoe.jpg" alt="">
             <h2 class="title__name">Пирог с куриным филе и картофелем.</h2>
             <p class="title__desc">Слоёное тесто,филе куриное охл., картофель очищенный,лук репчатый,специи.</p>
             <p class="title__price">470р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-1.jpg" alt="">
+            <img src="img/pie-meat-potatoe-cabbage.jpg" alt="">
             <h2 class="title__name">Пирог со свининой, картофелем и капустой</h2>
             <p class="title__desc">Слоёно тесто,свинина(окорок охл.),картофель очищенный,капуста тушёная,лук репчатый,специи.</p>
             <p class="title__price">470р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-1.jpg" alt="">
+            <img src="img/pie-semga-potatoe.jpg" alt="">
             <h2 class="title__name">Пирог с филе сёмги и картофелем</h2>
             <p class="title__desc">Слоёное тесто,филе семги охл.,картофель очищенный,лук репчатый,специи.</p>
             <p class="title__price">1320Р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-1.jpg" alt="">
+            <img src="img/pie-gorbusha-rice.jpg" alt="">
             <h2 class="title__name">Пирог с филе горбуши и рисом</h2>
             <p class="title__desc">Слоёное тесто,филе горбуши (охл.),рис отварной,лук репчатый,специи.</p>
             <p class="title__price">600р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-1.jpg" alt="">
+            <img src="img/chiken-pie.jpg" alt="">
             <h2 class="title__name">Курник с курицей</h2>
             <p class="title__desc">Тесто песочное. курица филе бедра.картафель очищеный.лук.масло.специи.</p>
             <p class="title__price">630р</p>
@@ -122,66 +140,48 @@
         <h1 class="product__title desert">Десерты</h1>
         <div class="slider-pie">
           <div class="product__item">
-            <img src="img/item-des.png" alt="">
+            <img src="img/item-des-1.jpg" alt="">
             <h2 class="title__name">Чизкейк классический</h2>
-            <p class="title__desc">Сладкий вкусный чизкейк на сливках и сыре</p>
+            <p class="title__desc">Сыр сливочный Креметте,сливки животные,сахар песок, яйцо куриное,мука пшеничная,масло сливочное.</p>
             <p class="title__price">470р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-des.png" alt="">
+            <img src="img/item-des-2.jpg" alt="">
             <h2 class="title__name">Чизкейк шоколадный</h2>
-            <p class="title__desc">Слоёное тесто, филе горбуши, картофель очищенный, лук репчатый, специи</p>
+            <p class="title__desc">Сыр сливочный Креметте,сливки животные,сахар песок.яйцо куриное,мука пшеничная,масло сливочное,какао красное.</p>
             <p class="title__price">600р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-des.png" alt="">
-            <h2 class="title__name">Венский пирог с вишней</h2>
-            <p class="title__desc"> Пирог из теста и вишни, сахар, и всякие приколюхи</p>
+            <img src="img/item-des-3.jpg" alt="">
+            <h2 class="title__name">Штрудель с вишней</h2>
+            <p class="title__desc"> тесто слоёное,вишня свежая,сахар песок</p>
             <p class="title__price">390р</p>
           </div>
-          <div class="product__item">
-            <img src="img/item-des.png" alt="">
-            <h2 class="title__name">Венский пирог черной смородиной</h2>
-            <p class="title__desc"> Слоёное тесто, ягоды , сахар, и остальное вкусное</p>
+           <div class="product__item">
+            <img src="img/item-des-4.jpg" alt="">
+            <h2 class="title__name">Штрудель с яблоком</h2>
+            <p class="title__desc">Тесто слоеное,яблоко свежее,мёд натуральный,сахар песок.</p>
             <p class="title__price">470р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-des.png" alt="">
+            <img src="img/item-des-5.jpg" alt="">
             <h2 class="title__name">Королевская ватрушка</h2>
-            <p class="title__desc">Ватрушка со сливочным кремом и прочей фигней</p>
+            <p class="title__desc">Творог 18%.сахар песок.яйцо куриное,масло сливочное,мука пшеничная.</p>
             <p class="title__price">470р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-des.png" alt="">
-            <h2 class="title__name">БЕЗЕ</h2>
-            <p class="title__desc">Сахар, сливки, дрожжи, бензин, ликёр, коньяк</p>
-            <p class="title__price">470р</p>
-          </div>
-          <!-- <div class="product__item">
-            <img src="img/item-des.png" alt="">
-            <h2 class="title__name">Пирог со свининой, картофелем и капустой</h2>
-            <p class="title__desc">Слоёно тесто,свинина(окорок охл.),картофель очищенный,капуста тушёная,лук репчатый,специи.</p>
+            <img src="img/item-des-6.jpg" alt="">
+            <h2 class="title__name">Безе-меренга</h2>
+            <p class="title__desc">Яйцо куриное,сахар песок.</p>
             <p class="title__price">470р</p>
           </div>
           <div class="product__item">
-            <img src="img/item-des.png" alt="">
-            <h2 class="title__name">Пирог с филе сёмги и картофелем</h2>
-            <p class="title__desc">Слоёное тесто,филе семги охл.,картофель очищенный,лук репчатый,специи.</p>
-            <p class="title__price">1320Р</p>
+            <img src="img/item-des-7.jpg" alt="">
+            <h2 class="title__name">Брауни с вишней</h2>
+            <p class="title__desc">Мука пшеничная,яйцо куриное,масло растительное,сахар песок,какао красное,ягода свежая вишня.</p>
+            <p class="title__price">470р</p>
           </div>
-          <div class="product__item">
-            <img src="img/item-des.png" alt="">
-            <h2 class="title__name">Пирог с филе горбуши и рисом</h2>
-            <p class="title__desc">Слоёное тесто,филе горбуши (охл.),рис отварной,лук репчатый,специи.</p>
-            <p class="title__price">600р</p>
-          </div>
-          <div class="product__item">
-            <img src="img/item-des.png" alt="">
-            <h2 class="title__name">Курник с курицей</h2>
-            <p class="title__desc">Тесто песочное. курица филе бедра.картафель очищеный.лук.масло.специи.</p>
-            <p class="title__price">630р</p>
-          </div> -->
-
+         
         </div>
       </div>
     </div>
@@ -194,25 +194,25 @@
         <h1 class="product__title">Морсы</h1>
         <div class="slider-pie">
           <div class="product__item">
-            <img src="img/f-drink.png" alt="">
+            <img src="img/f-drink-1.jpg" alt="">
             <h2 class="title__name">Морс Облепиховый</h2>
             <p class="title__desc fd-desc">0.5л</p>
             <p class="title__price">80р</p>
           </div>
           <div class="product__item">
-            <img src="img/f-drink.png" alt="">
+            <img src="img/f-drink-2.jpg" alt="">
             <h2 class="title__name">Морс Клюквенный</h2>
             <p class="title__desc fd-desc">0.5л</p>
             <p class="title__price">80р</p>
           </div>
           <div class="product__item">
-            <img src="img/f-drink.png" alt="">
+            <img src="img/f-drink-3.jpg" alt="">
             <h2 class="title__name">Морс Вишнёвый</h2>
             <p class="title__desc fd-desc"> 0.5л</p>
             <p class="title__price">80р</p>
           </div>
           <div class="product__item">
-            <img src="img/f-drink.png" alt="">
+            <img src="img/f-drink-4.jpg" alt="">
             <h2 class="title__name">МОРС ЧЕРНАЯ СМОРОДИНА </h2>
             <p class="title__desc fd-desc">0.5л</p>
             <p class="title__price">80р</p>
@@ -224,6 +224,26 @@
     </div>
   </section>
   <!-- Морсы конец-->
+  <!-- Почему мы? -->
+  <section class="questions">
+    <div class="container">
+      <div class="questions__inner">
+        <div class="questions__inner-title">
+        <h1 class="product__title question">Почему мы?</h1>
+        </div>
+        <div class="questions__inner-answer">
+          <ul class="inner__answer-tab">
+            <li>Свежие и натуральные продукты</li>
+            <li>Доставляем горячие пироги прямо из печи</li>
+            <li>Большой выбор пирогов на любой вкус</li>
+            <li>Очень много вкусной начинки</li>
+            <li>Приятного аппетита!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- потому -->
   <!-- Акции начало -->
   <section class="promo">
     <div class="container">
@@ -254,14 +274,18 @@
         </div>
         <div class="delivery__desc">
           <h1 class="desc__title" >Как оформить заказ на пироги?</h1>
-          <p class="desc__par">Заказать на сайте или позвонить по телефону <a href="tel:89049708476">8(904)9708476</a> (ежедневно с 08:00 до 16:00).</p>
-          <p class="desc__par-ul">Для оформления заказа через сайт Вам необходимо:</p>
+          <p class="desc__par">Позвонить по телефону <a href="tel:89049708476">8(904)9708476</a> (ежедневно с 08:00 до 16:00).</p>
+          <p class="desc__par-ul">Порядок приема и выполнения заказов:</p>
           <ul class="desc__list">
-            <li class="desc__list-item">1. Выбрать интересующий пирог, десерт или напиток</li>
-            <li class="desc__list-item">2. Выбрать количество</li>
-            <li class="desc__list-item">3. Нажать кнопку <span>«ЗАКАЗАТЬ»</span>.</li>
-            <li class="desc__list-item">4. Перейти в корзину и указать способ доставки продуктов.</li>
-            <li class="desc__list-item">5. Нажать на кнопку <span>«ОФОРМИТЬ ЗАКАЗ»</span>.(Дату изготовления продукции уточнить по телефону.)</li>
+            <li class="desc__list-item">ЗАКАЗЫ ПРИНИМАЮТСЯ С 9:00 ДО 20:00 ЧАСОВ</li>
+            <li class="desc__list-item">ОФОРМЛЕНИЕ ЗАКАЗА С ДОСТАВКОЙ НА ТЕКУЩУЮ ДАТУ С 9:00 ДО 15:00 ЧАСОВ</li>
+            <li class="desc__list-item">Заказы на пироги принимаются за 3 часа на доставку или за 4 часа, если заказ заберете самостоятельно.</span>.</li>
+            <li class="desc__list-item">В праздничные дни интервал доставки заказных пирогов, составляет 1,5-2 часа, в будние
+                                        дни 1 час (например: если Вам необходимы горячие, вкусные пироги к 12:00,мы Вам
+                                        привезем в интервале с 11:30 до 12:30).</li>
+            <li class="desc__list-item">Минимальный вес заказного пирога составляет 1 кг, (то есть 1 кг, 1,5 кг, 2 кг, 2,5 кг,
+                                        максимум 3 кг).</li>
+            <li class="desc__list-item">Приблизительные размеры пирогов: 1 кг — 25*25 см, 2 кг — 35*35 см, 3 кг — 40*60 см/</li>
           </ul>
         </div>
       </div>
